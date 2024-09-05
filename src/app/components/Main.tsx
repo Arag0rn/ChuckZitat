@@ -24,11 +24,11 @@ export const Main = () => {
   }, []);
 
   return (
-    <div className="bg-black flex flex-col min-h-screen ">
+    <div className="bg-black flex min-h-screen">
       {/* Hero Section */}
-      <section className="relative flex-grow overflow-hidden">
+      <section className="relative flex-grow flex">
         {/* YouTube Video Background */}
-        <div className="absolute inset-0">
+        <div className="relative w-1/2">
           <iframe
             src="https://www.youtube.com/embed/6bpmbREJkr8?autoplay=1&loop=1&playlist=6bpmbREJkr8&start=23&mute=1&controls=0&rel=0"
             className="w-full h-full"
@@ -39,34 +39,30 @@ export const Main = () => {
             style={{ pointerEvents: "none", objectFit: "cover" }}
           />
         </div>
-        <div className="relative z-10 text-center text-white">
+  
+        {/* Main Content Section */}
+        <div className="relative z-10 w-1/2 flex flex-col items-center justify-center text-center text-white py-10">
           <h1 className="text-4xl font-bold my-8">
             Welcome to Chuck Norris Jokes!
           </h1>
           <p className="text-lg mb-8">
             Get ready to laugh with some of the best jokes about Chuck Norris.
           </p>
+  
+          <h1 className="text-3xl font-bold text-white mb-2 animate-bounce">
+            Chuck Norris Joke 🤠
+          </h1>
+          <p className="mt-4 text-white text-lg text-center shadow-md p-4 bg-gray-800 rounded-lg">
+            {joke}
+          </p>
+          <button
+            onClick={getJokeForComponent}
+            className="mt-4 bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-300 shadow-md"
+          >
+            Get a New Joke 🎉
+          </button>
         </div>
       </section>
-
-      {/* Main Content Section */}
-      <div
-        className=" bg-black flex flex-col items-center justify-center  py-10 rounded-lg shadow-lg transition-transform transform  duration-300"
-        id="joke"
-      >
-        <h1 className="text-3xl font-bold text-white mb-2 animate-bounce">
-          Chuck Norris Joke 🤠
-        </h1>
-        <p className="mt-4 text-white text-lg text-center shadow-md p-4 bg-gray-800 rounded-lg">
-          {joke}
-        </p>
-        <button
-          onClick={getJokeForComponent}
-          className="mt-4 bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-300 shadow-md"
-        >
-          Get a New Joke 🎉
-        </button>
-      </div>
     </div>
   );
-};
+}
