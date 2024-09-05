@@ -17,8 +17,10 @@ Das **Chuck Norris Jokes** Projekt ist eine Webanwendung, die zufällige Witze �
 
 ## Installation
 1. Klonen Sie das Repository:
-   ```git clone https://github.com/username/chuck-norris-jokes.git
-      cd chuck-norris-jokes
+   ```
+   git clone
+   https://github.com/username/chuck-norris-jokes.git
+   cd chuck-norris-jokes
    ```
 2. Abhängigkeiten installieren:
    
