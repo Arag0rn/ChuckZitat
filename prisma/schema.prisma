@@ -9,6 +9,6 @@ generator client {
 }
 
 model Visitor {
-  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
   visitCount Int     @default(0)
 }
