@@ -24,9 +24,7 @@ The **Chuck Norris Jokes** project is a web application that generates random jo
 2. Install dependencies:
  ```bash
 npm install
-
-3. Configure the database connection:
-
+3. Configure the database connection
 4. Change the MongoDB connection parameters in the .env file.
 5. Run the application:
 
