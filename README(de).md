@@ -18,9 +18,10 @@ Das **Chuck Norris Jokes** Projekt ist eine Webanwendung, die zufällige Witze �
 ## Installation
 1. Klonen Sie das Repository:
    ```git clone https://github.com/username/chuck-norris-jokes.git
-      cd chuck-norris-jokes```
-   
+      cd chuck-norris-jokes
+   ```
 2. Abhängigkeiten installieren:
+   
 ```npm install```
 
 3. Konfigurieren Sie die Datenbankverbindung:
@@ -30,7 +31,7 @@ Das **Chuck Norris Jokes** Projekt ist eine Webanwendung, die zufällige Witze �
 
 ```npm run dev```
 
-5. Öffnen Sie Ihren Browser und navigieren Sie zu http://localhost:3000.
+6. Öffnen Sie Ihren Browser und navigieren Sie zu http://localhost:3000.
 
 ## Verwendung
 Startseite: Nach dem Start der Anwendung sehen Sie die Startseite mit einem Hintergrundvideo und einem Titel.
