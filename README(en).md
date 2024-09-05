@@ -6,7 +6,6 @@
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Project Structure](#project-structure)
-6. [Contributing](#contributing)
 
 ## Description
 The **Chuck Norris Jokes** project is a web application that generates random jokes about Chuck Norris. The application features a background video from YouTube and allows users to get new jokes by clicking a button.
@@ -60,23 +59,3 @@ chuck-norris-jokes/
     ├── schema.prisma             # Database schema (not required for MongoDB)
     └── migrations/                # Database migrations (not required for MongoDB)
 ```
-## Contributing
-If you want to make changes to the project, please follow these steps:
-
-Create a branch for your feature:
-
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make changes and commit them:
-
-bash
-Copy code
-git commit -m "Add some feature"
-Push changes to the repository:
-
-bash
-Copy code
-git push origin feature/your-feature-name
-Create a Pull Request.
-
