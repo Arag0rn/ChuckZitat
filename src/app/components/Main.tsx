@@ -36,7 +36,7 @@ export const Main =() =>{
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-bold">Случайная цитата Chuck Norris</h1>
+      <h1 className="text-2xl font-bold">Chuck Norris</h1>
       <p className="mt-4">{joke}</p>
       <p className="mt-4">Количество посетителей: {visitCount}</p>
     </div>
