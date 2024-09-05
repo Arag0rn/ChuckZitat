@@ -59,7 +59,7 @@ chuck-norris-jokes/
 └── prisma/                        # If not used, can be removed
     ├── schema.prisma             # Database schema (not required for MongoDB)
     └── migrations/                # Database migrations (not required for MongoDB)
-
+```
 ## Contributing
 If you want to make changes to the project, please follow these steps:
 
