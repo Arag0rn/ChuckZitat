@@ -56,6 +56,6 @@ chuck-norris-jokes/
 ├── .env                           # Environment configuration file
 ├── package.json                   # Dependency file
 └── prisma/                        # If not used, can be removed
-    ├── schema.prisma             # Database schema (not required for MongoDB)
-    └── migrations/                # Database migrations (not required for MongoDB)
+    ├── schema.prisma             
+    └── generated/                
 ```
