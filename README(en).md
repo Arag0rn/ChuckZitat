@@ -18,12 +18,12 @@ The **Chuck Norris Jokes** project is a web application that generates random jo
 
 ## Installation
 1. Clone the repository:
-   ```bash
+   `bash
    git clone https://github.com/username/chuck-norris-jokes.git
-   cd chuck-norris-jokes
+   cd chuck-norris-jokes`
 2. Install dependencies:
- ```bash
-npm install
+ `bash
+npm install`
 3. Configure the database connection
 4. Change the MongoDB connection parameters in the .env file.
 5. Run the application:
