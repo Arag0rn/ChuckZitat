@@ -5,6 +5,7 @@ const prisma = new PrismaClient();
 export async function GET() {
   try {
     const visitor = await prisma.visitor.findFirst();
+
     if (!visitor) {
       const newVisitor = await prisma.visitor.create({ data: { visitCount: 1 } });
       return new Response(JSON.stringify({ count: newVisitor.visitCount }), { status: 200 });
