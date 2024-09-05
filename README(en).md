@@ -22,9 +22,7 @@ The **Chuck Norris Jokes** project is a web application that generates random jo
    git clone https://github.com/username/chuck-norris-jokes.git
    cd chuck-norris-jokes
 2. Install dependencies:
-
-bash
-Copy code
+ ```bash
 npm install
 
 3. Configure the database connection:
