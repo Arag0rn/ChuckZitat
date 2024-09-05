@@ -26,9 +26,9 @@ export const Main = () => {
   return (
     <div className="bg-black flex min-h-screen">
       {/* Hero Section */}
-      <section className="relative flex-grow flex">
+      <section className="relative flex-grow flex flex-col md:flex-row">
         {/* YouTube Video Background */}
-        <div className="relative w-1/2">
+        <div className="relative w-full md:w-1/2">
           <iframe
             src="https://www.youtube.com/embed/6bpmbREJkr8?autoplay=1&loop=1&playlist=6bpmbREJkr8&start=23&mute=1&controls=0&rel=0"
             className="w-full h-full"
@@ -41,7 +41,7 @@ export const Main = () => {
         </div>
   
         {/* Main Content Section */}
-        <div className="relative z-10 w-1/2 flex flex-col items-center justify-center text-center text-white py-10">
+        <div className="relative z-10 w-full md:w-1/2 flex flex-col items-center justify-center text-center text-white py-10">
           <h1 className="text-4xl font-bold my-8">
             Welcome to Chuck Norris Jokes!
           </h1>
