@@ -18,27 +18,24 @@ The **Chuck Norris Jokes** project is a web application that generates random jo
 
 ## Installation
 1. Clone the repository:
-   `bash
-   git clone https://github.com/username/chuck-norris-jokes.git
+   `git clone https://github.com/username/chuck-norris-jokes.git
    cd chuck-norris-jokes`
 2. Install dependencies:
- `bash
-npm install`
+ `npm install`
 3. Configure the database connection
 4. Change the MongoDB connection parameters in the .env file.
 5. Run the application:
-
-bash
-Copy code
-npm run dev
+`npm run dev`
 Open your browser and navigate to http://localhost:3000.
 
 ## Usage
+
 Home Page: After starting the application, you will see the home page with a background video and title.
 Get a Joke: Click the "Get a New Joke" button to generate a new joke about Chuck Norris.
 Footer: The footer displays a visitor widget showing the number of visits.
 
 ## Project Structure
+```
 plaintext
 Copy code
 chuck-norris-jokes/
@@ -62,6 +59,7 @@ chuck-norris-jokes/
 └── prisma/                        # If not used, can be removed
     ├── schema.prisma             # Database schema (not required for MongoDB)
     └── migrations/                # Database migrations (not required for MongoDB)
+
 ## Contributing
 If you want to make changes to the project, please follow these steps:
 
